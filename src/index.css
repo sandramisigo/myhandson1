@@ -4,32 +4,30 @@ body {
   align-items: center;
 }
 
-
-
 /* Center the content vertically and horizontally */
 .App {
   display: flex;
   flex-direction: column;
   align-items: center;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  max-width: 800px;
+  max-width: 600px;  /* Reduced width */
   margin: 0 auto;
   justify-content: center;
   min-height: 100vh;
   text-align: center;
-  padding: 20px;
+  padding: 15px;  /* Reduced padding */
   border-radius: 10px;
 }
 
-h1{
-  font-size:50px ;
-  margin-bottom: 20px;
+h1 {
+  font-size: 36px;  /* Reduced font size */
+  margin-bottom: 15px;
   color: #333;
 }
 
-img{
-  margin-bottom: 20px;
-  width: 500px; 
+img {
+  margin-bottom: 15px;
+  width: 350px;  /* Reduced width */
   max-width: 100%;
   height: auto;
   border-radius: 10px;
@@ -37,29 +35,27 @@ img{
 }
 
 p {
-  font-size: 40px;
+  font-size: 18px;  /* Reduced font size */
   color: #666;
-  margin-bottom: 20px;
-  
+  margin-bottom: 15px;
 }
 
 button {
   background-color: #007BFF;
   color: #fff;
-  font-size: 20px;
-  padding: 10px 20px;
+  font-size: 16px;  /* Reduced font size */
+  padding: 8px 16px;  /* Reduced padding */
   border: none;
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
-
-/* Styling counter text*/
+/* Styling counter text */
 button + p {
   font-weight: 600;
-  font-size: 40px;
+  font-size: 18px;  /* Reduced font size */
   color: #333;
 }
 
